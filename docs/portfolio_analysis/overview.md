@@ -22,7 +22,7 @@ mindmap
         hfm(High Fidelity Models)
             ExaWind
             ERF
-            OpenTurbine
+            kynema
             pyNuMAD
 
         do(Design & Optimization)

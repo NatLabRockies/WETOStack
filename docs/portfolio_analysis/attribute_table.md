@@ -56,11 +56,7 @@ for i, row in df.iterrows():
     df.at[i, "does"] = does_list
 
 general_df = df[[
-    "github_account",
-    "github_repo",
     "does",
-    "active_funding",
-    "development_status",
     "programming_language",
     "license_type",
     "data_collection_methods",

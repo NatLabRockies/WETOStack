@@ -31,8 +31,8 @@ export const nodes = ref<Node[]>([
         id: "3",
         type: "decision",
         data: {
-            a: "Power",
-            b: "Power + Loads",
+            a: "Power + Loads",
+            b: "Power",
             state: null,
             reachable: false
         },
@@ -64,8 +64,8 @@ export const nodes = ref<Node[]>([
         id: "6",
         type: "decision",
         data: {
-            a: "Resolve geometry",
-            b: "Actuator methods",
+            a: "Actuator methods",
+            b: "Resolve geometry",
             state: null,
             reachable: false
         },
@@ -75,8 +75,8 @@ export const nodes = ref<Node[]>([
         id: "7",
         type: "decision",
         data: {
-            a: "Variable",
-            b: "Steady state",
+            a: "Steady state",
+            b: "Variable",
             state: null,
             reachable: false
         },
@@ -86,8 +86,8 @@ export const nodes = ref<Node[]>([
         id: "8",
         type: "decision",
         data: {
-            a: "Design",
-            b: "Batch Simulation",
+            a: "Design / Batch",
+            b: "Single Simulation",
             state: null,
             reachable: false
         },

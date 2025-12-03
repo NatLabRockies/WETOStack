@@ -121,7 +121,7 @@ export const nodes = ref<Node[]>([
     {
         id: "12",
         data: {
-            label: "pyDatView / Sora WEIS (MF)",
+            label: "pyDatView / WEIS (MF)",
             reachable: false
         },
         position: { x: 0, y: 0},

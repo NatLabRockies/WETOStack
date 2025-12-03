@@ -1,6 +1,6 @@
 # General
-github_account: exawind
-github_repo: openturbine
+github_account: kynema
+github_repo: kynema
 active_funding: true
 development_status: new_features
 programming_language: c++
@@ -44,7 +44,7 @@ supported_platforms:
 installation_complexity: 4
 
 # Documentation
-documentation_url: https://exawind.github.io/openturbine/
+documentation_url: https://kynema.github.io/kynema/
 has_user_docs: false
 has_developer_docs: true
 has_api_docs: false
