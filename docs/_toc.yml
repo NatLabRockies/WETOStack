@@ -8,7 +8,7 @@ parts:
 - caption: The Portfolio
   chapters:
   - file: portfolio_analysis/overview
-  - url: https://nrel.github.io/WETOStack/_static/entry_guide/index.html
+  - url: https://natlabrockies.github.io/WETOStack/_static/entry_guide/index.html
     title: Entry Guide
   - file: portfolio_analysis/software_list
     sections:

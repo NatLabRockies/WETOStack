@@ -1,5 +1,5 @@
 # General
-github_account: NREL
+github_account: NatLabRockies
 github_repo: dw-tap
 active_funding: true
 development_status: new_features
@@ -45,7 +45,7 @@ supported_platforms:
 installation_complexity: 5
 
 # Documentation
-documentation_url: https://dw-tap.nrel.gov
+documentation_url: https://dw-tap.nlr.gov
 has_user_docs: true
 has_developer_docs: true
 has_api_docs: true

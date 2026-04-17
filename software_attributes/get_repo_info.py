@@ -6,28 +6,28 @@ import os
 github_token = os.getenv('GITHUB_TOKEN')
 
 repo_list = [
-    ("https://github.com", "nrel", "floris"),
+    ("https://github.com", "NatLabRockies", "floris"),
     ("https://github.com", "openfast", "openfast"),
     ("https://github.com", "exawind", "nalu-wind"),
     ("https://github.com", "exawind", "amr-wind"),
-    ("https://github.com", "nrel", "windse"),
+    ("https://github.com", "NatLabRockies", "windse"),
     ("https://github.com", "erf-model", "erf"),
     ("https://github.com", "openfast", "kitefast"),
     ("https://github.com", "openfast", "openfast"),
     ("https://github.com", "sandialabs", "OWENS.jl"),
-    ("https://github.com", "nrel", "rosco"),
-    ("https://github.com", "nrel", "rosco_toolbox"),
+    ("https://github.com", "NatLabRockies", "rosco"),
+    ("https://github.com", "NatLabRockies", "rosco_toolbox"),
     ("https://github.com", "wisdem", "wisdem"),
     ("https://github.com", "wisdem", "weis"),
-    ("https://github.com", "NREL", "HOPP"),
-    ("https://github.com", "WISDEM", "landbosse"),
-    ("https://github.com", "WISDEM", "WOMBAT"),
-    ("https://github.com", "WISDEM", "ard"),
+    ("https://github.com", "NatLabRockies", "HOPP"),
+    ("https://github.com", "NLRWindSystems", "landbosse"),
+    ("https://github.com", "NLRWindSystems", "WOMBAT"),
+    ("https://github.com", "NLRWindSystems", "ard"),
 ]
 
 for repo in repo_list:
     api = GhApi(owner=repo[1], repo=repo[2], token=github_token)
-    # api = GhApi(owner="nrel", repo="floris")
+    # api = GhApi(owner="NatLabRockies", repo="floris")
 
     # Determine the primary branch
     primary_branch = None

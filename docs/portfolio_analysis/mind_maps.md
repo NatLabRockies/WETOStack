@@ -30,8 +30,8 @@ mindmap
 
 - OpenFAST https://github.com/openfast/openfast - Multi-physics, multi-fidelity tool for simulating the coupled dynamic response of wind turbines.
 - FAST.Farm https://github.com/openfast/openfast - Mid-fidelity wind farm simulator that uses OpenFAST as a turbine model.
-- MoorPy https://github.com/nrel/moorpy - Quasi-static mooring model and a suite of associated functions for mooring system analysis.
-- RAFT https://github.com/WISDEM/RAFT - Library for frequency-domain analysis of floating wind turbines.
+- MoorPy https://github.com/natlabrockies/moorpy - Quasi-static mooring model and a suite of associated functions for mooring system analysis.
+- RAFT https://github.com/nlrwindsystems/RAFT - Library for frequency-domain analysis of floating wind turbines.
 - OWENS https://github.com/sandialabs/OWENS.jl - Multi-physics aero-servo-elastic tool with coupling to OpenFAST hydrodynamics and mooring for the coupled dynamic response of VAWTs and crossflow turbines.
 ````
 
@@ -91,11 +91,11 @@ mindmap
         om(" ")
 ```
 
-- WEIS https://github.com/wisdem/weis - Wind Energy with Integrated Servo-control performs multifidelity co-design of wind turbines by combining multiple NREL-developed tools to enable design optimization of floating offshore wind turbines.
-- WISDEM https://github.com/wisdem/wisdem - Set of wind turbine and plant cost and energy production models along with financial models for assessing overall wind plant cost of energy.
-- WindSE https://github.com/nrel/windse - Python package that uses a FEniCS backend to perform wind farm simulations and optimization. 
-- Ard https://github.com/WISDEM/Ard/ - Make plant-level design choices for the whole system and its interactions to make wind energy projects more successful.
-- HOPP https://github.com/NREL/HOPP - Assesses optimal designs for the deployment of utility-scale hybrid energy plants, particularly considering wind, solar and storage.
+- WEIS https://github.com/nlrwindsystems/weis - Wind Energy with Integrated Servo-control performs multifidelity co-design of wind turbines by combining multiple NLR-developed tools to enable design optimization of floating offshore wind turbines.
+- WISDEM https://github.com/nlrwindsystems/wisdem - Set of wind turbine and plant cost and energy production models along with financial models for assessing overall wind plant cost of energy.
+- WindSE https://github.com/natlabrockies/windse - Python package that uses a FEniCS backend to perform wind farm simulations and optimization. 
+- Ard https://github.com/nlrwindsystems/Ard/ - Make plant-level design choices for the whole system and its interactions to make wind energy projects more successful.
+- HOPP https://github.com/natlabrockies/HOPP - Assesses optimal designs for the deployment of utility-scale hybrid energy plants, particularly considering wind, solar and storage.
 - SONATA https://github.com/ptrbortolotti/SONATA - Toolbox for Multidisciplinary Rotor Blade Design Environment for Structural Optimization and Aeroelastic Analysis.
 ````
 
@@ -122,10 +122,10 @@ mindmap
         om(" ")
 ```
 
-- ROSCO https://github.com/NREL/ROSCO - Reference controller with industry-standard functionality and generic tuning
-- FLORIS https://github.com/nrel/floris - Controls-focused wind farm simulation software incorporating steady-state engineering wake models into a performance-focused Python framework.
-- FLASC https://github.com/nrel/flasc - Suite of analysis tools for SCADA data filtering, analysis, wind farm model validation, field experiment design, and field experiment monitoring.
-- hercules https://github.com/nrel/hercules - Wind farm emulator for controls testing with LES models.
+- ROSCO https://github.com/natlabrockies/ROSCO - Reference controller with industry-standard functionality and generic tuning
+- FLORIS https://github.com/natlabrockies/floris - Controls-focused wind farm simulation software incorporating steady-state engineering wake models into a performance-focused Python framework.
+- FLASC https://github.com/natlabrockies/flasc - Suite of analysis tools for SCADA data filtering, analysis, wind farm model validation, field experiment design, and field experiment monitoring.
+- hercules https://github.com/natlabrockies/hercules - Wind farm emulator for controls testing with LES models.
 ````
 
 
@@ -148,7 +148,7 @@ mindmap
         om(" ")
 ```
 
-- DW TAP https://github.com/NREL/dw-tap-app - A simple tool for cost-effectively and accurately assessing wind resources without having to physically take direct measurements in the field.
+- DW TAP https://github.com/natlabrockies/dw-tap-app - A simple tool for cost-effectively and accurately assessing wind resources without having to physically take direct measurements in the field.
 ````
 
 
@@ -175,10 +175,10 @@ mindmap
         om(" ")
 ```
 
-- LandBOSSE https://github.com/WISDEM/LandBOSSE - A systems engineering tool that estimates the balance-of-system (BOS) costs associated with installing utility scale wind plants (10, 1.5 MW turbines or larger)
-- ORBIT https://github.com/WISDEM/ORBIT - A model to study the cost and times associated with Offshore Wind Balance of System (BOS) processes.
-- CORAL https://github.com/NREL/CORAL - Concurrent ORBIT for shared Resource Analysis Library
-- NRWAL https://github.com/NREL/NRWAL - A library of offshore wind cost equations (plus new energy technologies like marine hydro!).
+- LandBOSSE https://github.com/nlrwindsystems/LandBOSSE - A systems engineering tool that estimates the balance-of-system (BOS) costs associated with installing utility scale wind plants (10, 1.5 MW turbines or larger)
+- ORBIT https://github.com/nlrwindsystems/ORBIT - A model to study the cost and times associated with Offshore Wind Balance of System (BOS) processes.
+- CORAL https://github.com/natlabrockies/CORAL - Concurrent ORBIT for shared Resource Analysis Library
+- NRWAL https://github.com/natlabrockies/NRWAL - A library of offshore wind cost equations (plus new energy technologies like marine hydro!).
 ````
 
 
@@ -201,7 +201,7 @@ mindmap
         om(" ")
 ```
 
-- SSRS https://github.com/NREL/SSRS - A stochastic agent-based model for predicting raptor movements through an orographic updraft field estimated using the spatially varying wind conditions and ground features (altitude, slope, aspect).
+- SSRS https://github.com/natlabrockies/SSRS - A stochastic agent-based model for predicting raptor movements through an orographic updraft field estimated using the spatially varying wind conditions and ground features (altitude, slope, aspect).
 ````
 
 
@@ -225,6 +225,6 @@ mindmap
             WOMBAT
 ```
 
-- WOMBAT https://github.com/WISDEM/WOMBAT - A library to simulate the operation and maintenance phase (O&M) of distributed, land-based, and offshore wind farms using a discrete event simulation framework.
-- OpenOA https://github.com/nrel/openoa - A framework for working with large time-series data from wind plants, such as SCADA.
+- WOMBAT https://github.com/nlrwindsystems/WOMBAT - A library to simulate the operation and maintenance phase (O&M) of distributed, land-based, and offshore wind farms using a discrete event simulation framework.
+- OpenOA https://github.com/natlabrockies/openoa - A framework for working with large time-series data from wind plants, such as SCADA.
 ````

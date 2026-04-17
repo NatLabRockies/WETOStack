@@ -6,10 +6,10 @@ Consider this list a loose collection of resources rather than a comprehensive s
 This page was written by Rafael Mudafort, and I give my own recommendations and opinions
 included in the descriptions below. Feel free to reach out to me with questions or comments.
 
-## Internal to NREL
+## Internal to NLR
 
-This section section contains training material that was developed at NREL and requires
-access to the NREL VPN to view.
+This section section contains training material that was developed at NLR and requires
+access to the NLR VPN to view.
 
 - **Lunch and learn style talks** by Rafael Mudafort given at NWTC between 2019 and 2020
     - Some are better than others but all are aimed at new hires, especially interns and post docs.
@@ -18,16 +18,16 @@ access to the NREL VPN to view.
       (command line, ssh, IDE’s, etc).
     - [OOP with Python](https://web.microsoftstream.com/video/7ef3ea9c-dad9-496d-b9df-927f87b00ca4)
     - [conda as a development tool](https://web.microsoftstream.com/video/059eaab4-8c1b-4cdb-aa16-c1ed1c081756?list=studio)
-    - [VS Code as a development tool with NREL-specific tips](https://web.microsoftstream.com/video/202a8a28-80c5-4142-a283-e603134a313f?list=studio)
+    - [VS Code as a development tool with NLR-specific tips](https://web.microsoftstream.com/video/202a8a28-80c5-4142-a283-e603134a313f?list=studio)
     - [Basic git usage](https://web.microsoftstream.com/video/6646b872-9e26-44a5-bda9-078d5b3fc65e?list=studio)
     - Advanced git usage: getting out of a problem (Not recorded but this one should be given again and recorded)
 
 - MBAP **Software Engineering for Engineering Software** (SEES) Seminar Series
-    - [Full list of seminars](https://github.nrel.gov/MBAP/SEES/wiki/Past-Seminars)
-    - [Git good: Advanced Git and GitHub features](https://github.nrel.gov/MBAP/SEES/wiki/Past-Seminars#git-good-advanced-git-and-github-features)
-    - [Mutable vs immutable objects and how they impact design and performance in Python](https://github.nrel.gov/MBAP/SEES/wiki/Past-Seminars#mutable-vs-immutable-objects-and-how-they-impact-design-and-performance-in-python)
-    - [Python Command Line Applications](https://github.nrel.gov/MBAP/SEES/wiki/Past-Seminars#python-command-line-applications)
-    - [Debugging](https://github.nrel.gov/MBAP/SEES/wiki/Past-Seminars#debugging)
+    - [Full list of seminars](https://github.nlr.gov/MBAP/SEES/wiki/Past-Seminars)
+    - [Git good: Advanced Git and GitHub features](https://github.nlr.gov/MBAP/SEES/wiki/Past-Seminars#git-good-advanced-git-and-github-features)
+    - [Mutable vs immutable objects and how they impact design and performance in Python](https://github.nlr.gov/MBAP/SEES/wiki/Past-Seminars#mutable-vs-immutable-objects-and-how-they-impact-design-and-performance-in-python)
+    - [Python Command Line Applications](https://github.nlr.gov/MBAP/SEES/wiki/Past-Seminars#python-command-line-applications)
+    - [Debugging](https://github.nlr.gov/MBAP/SEES/wiki/Past-Seminars#debugging)
 
 - Computational Sciences Tutorials
     - [Teams channel](https://teams.microsoft.com/l/channel/19%3a6nLmPDt9QHQMEuLHVBaxfsitEZSGH6oXT6lyVauMvXY1%40thread.tacv2/General?groupId=22ad3c7b-a45a-4880-b8b4-b70b989f1344&tenantId=a0f29d7e-28cd-4f54-8442-7885aee7c080)

@@ -1,5 +1,5 @@
 # General
-github_account: nrel
+github_account: NatLabRockies
 github_repo: floris
 active_funding: true
 development_status: new_features
@@ -49,7 +49,7 @@ package_manager_url:
 installation_complexity: 1
 
 # Documentation
-documentation_url: https://nrel.github.io/floris/intro.html
+documentation_url: https://natlabrockies.github.io/floris/intro.html
 has_user_docs: true
 has_developer_docs: true
 has_api_docs: true

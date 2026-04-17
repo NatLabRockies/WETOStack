@@ -1,8 +1,8 @@
 # 2025 NAWEA / WindTech Workshops
 
 Prior to the [2025 NAWEA / WindTech conference](https://naweawindtech2025.org) at
-UT Dallas, NREL hosted a [series of workshops](https://naweawindtech2025.org/side-events/)
-related to the following software produced by NREL:
+UT Dallas, NLR hosted a [series of workshops](https://naweawindtech2025.org/side-events/)
+related to the following software produced by NLR:
 - WEIS
 - FLORIS
 - HOPP / H2Integrate
