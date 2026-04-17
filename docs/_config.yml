@@ -23,7 +23,7 @@ latex:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/nrel/wetostack
+  url: https://github.com/natlabrockies/wetostack
   path_to_book: docs
   branch: main
 

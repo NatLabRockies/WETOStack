@@ -1,6 +1,6 @@
 # 2023 NAWEA / WindTech Workshops
 
-Following the 2023 NAWEA WindTech conference, NREL hosted a series of workshops related to the
+Following the 2023 NAWEA WindTech conference, NLR hosted a series of workshops related to the
 collection of wind energy software produced at the lab.
 Each workshop introduced a specific software project and provided practical suggestions
 for modeling and analysis.

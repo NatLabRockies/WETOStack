@@ -1,5 +1,5 @@
 # General
-github_account: NREL
+github_account: NatLabRockies
 github_repo: hsds-examples
 active_funding: true
 development_status: new_features
@@ -43,7 +43,7 @@ supported_platforms:
 installation_complexity: 8
 
 # Documentation
-documentation_url: https://www.nrel.gov/grid/wind-toolkit.html
+documentation_url: https://www.nlr.gov/grid/wind-toolkit.html
 has_user_docs: true
 has_developer_docs: true
 has_api_docs: true

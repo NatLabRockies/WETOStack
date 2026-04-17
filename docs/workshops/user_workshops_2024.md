@@ -22,7 +22,7 @@ users of WETO software.
 
 `````{admonition} Contact
 :class: tip
-Please contact Rafael Mudafort (rafael.mudafort@nrel.gov) with any questions.
+Please contact Rafael Mudafort (rafael.mudafort@nlr.gov) with any questions.
 `````
 
 <!-- `````{admonition} Schedule Changes
@@ -110,11 +110,11 @@ A PDF version of the slides that were presented at each workshop are included he
 ### Systems Engineering
 
 The sections presented in this workshop are:
-- [WETO Software Stack](https://nrel.github.io/WETOStack) by Rafael Mudafort
+- [WETO Software Stack](https://natlabrockies.github.io/WETOStack) by Rafael Mudafort
 - [WISDEM](https://github.com/WISDEM/WISDEM) by Pietro Bortolotti
 - [WEIS](https://github.com/WISDEM/WEIS) by Dan Zalkind
 - [pyNuMAD](https://github.com/sandialabs/pyNuMAD) by Ernesto Camarena
-- [WindSE](https://github.com/NREL/WindSE) by Jeff Allen and Ethan Young
+- [WindSE](https://github.com/NatLabRockies/WindSE) by Jeff Allen and Ethan Young
 
 Garrett Barter co-hosted the workshop and facilitated the discussion.
 
@@ -126,13 +126,13 @@ Garrett Barter co-hosted the workshop and facilitated the discussion.
 ### TEA and Cost Modeling
 
 The sections presented in this workshop are:
-- [WETO Software Stack](https://nrel.github.io/WETOStack) by Rafael Mudafort
+- [WETO Software Stack](https://natlabrockies.github.io/WETOStack) by Rafael Mudafort
 - [LandBOSSE](https://github.com/WISDEM/LandBOSSE) by Rob Hammond
 - [ORBIT](https://github.com/WISDEM/ORBIT) by Nick Riccobono
-- [CORAL](https://github.com/NREL/CORAL) by Sophie Bredenkamp
+- [CORAL](https://github.com/NatLabRockies/CORAL) by Sophie Bredenkamp
 - [WOMBAT](https://github.com/WISDEM/WOMBAT) by Rob Hammond
-- [WAVES](https://github.com/NREL/WAVES) by Rob Hammond
-- [NRWAL](https://github.com/NREL/NRWAL) by Rob Hammond
+- [WAVES](https://github.com/NatLabRockies/WAVES) by Rob Hammond
+- [NRWAL](https://github.com/NatLabRockies/NRWAL) by Rob Hammond
 
 Garrett Barter co-hosted the workshop and facilitated the discussion.
 
@@ -144,11 +144,11 @@ Garrett Barter co-hosted the workshop and facilitated the discussion.
 ### Wind Farm Controls and Analysis
 
 The sections presented in this workshop are:
-- [WETO Software Stack](https://nrel.github.io/WETOStack) by Rafael Mudafort
-- [FLORIS](https://github.com/NREL/FLORIS) by Misha Sinner
-- [FLASC](https://github.com/NREL/FLASC) by Paul Fleming
-- [OpenOA](https://github.com/NREL/OpenOA) by Eric Simley and Rob Hammond
-- [Hercules](https://github.com/NREL/Hercules) by Misha Sinner and Gen Starke
+- [WETO Software Stack](https://natlabrockies.github.io/WETOStack) by Rafael Mudafort
+- [FLORIS](https://github.com/NatLabRockies/FLORIS) by Misha Sinner
+- [FLASC](https://github.com/NatLabRockies/FLASC) by Paul Fleming
+- [OpenOA](https://github.com/NatLabRockies/OpenOA) by Eric Simley and Rob Hammond
+- [Hercules](https://github.com/NatLabRockies/Hercules) by Misha Sinner and Gen Starke
 
 Garrett Barter co-hosted the workshop and facilitated the discussion.
 
@@ -160,10 +160,10 @@ Garrett Barter co-hosted the workshop and facilitated the discussion.
 ### OpenFAST Ecosystem
 
 The sections presented in this workshop are:
-- [WETO Software Stack](https://nrel.github.io/WETOStack) by Rafael Mudafort
-- [OpenFAST](https://github.com/NREL/FLORIS) by Jason Jonkman
-- [ACDC](https://github.com/NREL/FLASC) by Derek Slaughter
-- [ROSCO](https://github.com/NREL/OpenOA) by Dan Zalkind
+- [WETO Software Stack](https://natlabrockies.github.io/WETOStack) by Rafael Mudafort
+- [OpenFAST](https://github.com/NatLabRockies/FLORIS) by Jason Jonkman
+- [ACDC](https://github.com/NatLabRockies/FLASC) by Derek Slaughter
+- [ROSCO](https://github.com/NatLabRockies/OpenOA) by Dan Zalkind
 
 Garrett Barter co-hosted the workshop and facilitated the discussion.
 
@@ -175,7 +175,7 @@ Garrett Barter co-hosted the workshop and facilitated the discussion.
 ### High Fidelity Modeling
 
 The sections presented in this workshop are:
-- [WETO Software Stack](https://nrel.github.io/WETOStack) by Rafael Mudafort
+- [WETO Software Stack](https://natlabrockies.github.io/WETOStack) by Rafael Mudafort
 - [ExaWind](https://exawind.github.io) by Mike Sprague
 - [ExaWind:OpenTurbine](https://github.com/exawind/openturbine) by Mike Sprague
 - [ExaWind:AMR-Wind](https://github.com/exawind/amr-wind) by Michael Kuhn

@@ -6,18 +6,18 @@ The Portfolio Coordination project is constructing a database of all WETO softwa
 the portfolio-wide analysis.
 Initially, only actively-funded software is included, but it will expand to all software under WETO.
 The database consists of attributes of each software project expressed in a YAML file
-in the https://github.com/nrel/wetostack repository.
+in the https://github.com/natlabrockies/wetostack repository.
 The attributes should conform to the JSON schema (YAML is a superset of JSON) described in
 the documentation below.
-See the [FLORIS entry](https://github.com/nrel/WETOStack/blob/main/software_attributes/database/floris.yaml)
+See the [FLORIS entry](https://github.com/natlabrockies/WETOStack/blob/main/software_attributes/database/floris.yaml)
 for an example.
 
 To add or update a project entry, submit a pull request to this repository modifying an
 existing project file or creating a new one.
 All entries should be in the
-[./software_attributes/database](https://github.com/nrel/WETOStack/tree/main/software_attributes/database)
+[./software_attributes/database](https://github.com/natlabrockies/WETOStack/tree/main/software_attributes/database)
 directory.
-A [validation script](https://github.com/nrel/WETOStack/blob/main/software_attributes/validate_schema.py)
+A [validation script](https://github.com/natlabrockies/WETOStack/blob/main/software_attributes/validate_schema.py)
 is available, and it is run automatically upon creation and update of the pull request.
 
 ````{admonition} How to read the schema docs

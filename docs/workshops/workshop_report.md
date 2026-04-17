@@ -1,7 +1,7 @@
 (workshop_report_top)=
 # 2023 Workshop Report
 
-The first portfolio coordination workshop for wind energy software model owners, sponsored by the Wind Energy Technology Office (WETO) within the U.S. Department of Energy (DOE), was held September 7, 2023, at the Golden Campus of the National Renewable Energy Laboratory (NREL).  The workshop technical program was organized by Rafael Mudafort, Pietro Bortolotti, and Garrett Barter, as part of the 
+The first portfolio coordination workshop for wind energy software model owners, sponsored by the Wind Energy Technology Office (WETO) within the U.S. Department of Energy (DOE), was held September 7, 2023, at the Golden Campus of the National Renewable Energy Laboratory (NLR).  The workshop technical program was organized by Rafael Mudafort, Pietro Bortolotti, and Garrett Barter, as part of the 
 *Holistic, Multi-Fidelity Wind Farm Design Optimization and Model Coordination* project, with the vision that a similar event will be held annually.  Significant thanks and appreciation to Ashley Shamus and Kara Bethea for their help in the planning and logistics of the workshop day.
 
 This report summarizes the workshop sessions, presentations, and discussion highlights.  The material is presented in the chronological order of the [agenda](workshop_agenda).  All notes, presentations, recordings, and transcripts of the workshop are archived and digitally available upon request.
@@ -26,7 +26,7 @@ The discussion that followed covered the following themes:
 
 ## Session 2: WETO Portfolio Overview
 
-The second session of the day was to identify major overlaps or gaps in the WETO software stack, which could then inform future funding investments.  Garrett Barter presented an overview of the new WETO [model portfolio dashboard](https://a2e.energy.gov/code/repo), as well as the inter-dependencies between models such as depicted in the [](technical_areas).  Some of the portfolio overview slides that NREL has used in the past were also shown, with an aspiration that some of this material will migrate to the dashboard, while also acknowledging that there will still be a need for Powerpoint-based depictions of the portfolio.  The workshop participants had some helpful suggestions for additional comparison tables to include on the dashboard.
+The second session of the day was to identify major overlaps or gaps in the WETO software stack, which could then inform future funding investments.  Garrett Barter presented an overview of the new WETO [model portfolio dashboard](https://a2e.energy.gov/code/repo), as well as the inter-dependencies between models such as depicted in the [](technical_areas).  Some of the portfolio overview slides that NLR has used in the past were also shown, with an aspiration that some of this material will migrate to the dashboard, while also acknowledging that there will still be a need for Powerpoint-based depictions of the portfolio.  The workshop participants had some helpful suggestions for additional comparison tables to include on the dashboard.
 
 The overview presentation was followed by individual "lightning talks" intended to introduce the audience to segments or perspectives on the portfolio that might be less familiar:
 
@@ -78,7 +78,7 @@ Following lunch, Rafael Mudafort presented his perspective on best practices for
 **Staffing Dynamics**
   + *(Barrier)* Career progression for laboratory researchers incentivizes journal publications, which places on emphasis on research-grade software that has many advanced features, but might lack all other characteristics of sustainability and usability.
   + *(Barrier)* Even for software that is meant for cutting edge research, much of the codebase deals with managing data, managing inputs, managing parallel processing, and other tasks which can feel like recreating the wheel.  On top of writing tests and documentation for these related functions, the tasks can feel a bit dry and a poor investment of time if the ultimate goal is journal-quality research.
-  + *(Recommendation)* At LBNL, there is a career title and track for research software engineer where the emphasis is on software output (releases, tests, bugs or issues addressed, documentation) and not journal publications.  This is likely true at PNNL as well.  NREL seems a little behind in this regard.
+  + *(Recommendation)* At LBNL, there is a career title and track for research software engineer where the emphasis is on software output (releases, tests, bugs or issues addressed, documentation) and not journal publications.  This is likely true at PNNL as well.  NLR seems a little behind in this regard.
   + *(Barrier)* When new staff join the laboratories and are put on the projects that develop WETO software, they are likely not coming from a software development or computer science background and are expected to learn those skills on the job.  There is no intensive or dedicated training in topics such as software architecture or GPU programming or git workflows or related best practices concepts.
   + *(Recommendation)* Training shouldn't just be focused on new staff.  As the best practices become more formalized, existing staff would also benefit from dedicated training too.
   + *(Barrier)* Researchers at all laboratories tend to be spread thin across multiple projects so that they are almost always multitasking.  This means they tend to prioritize on the most critical activities to meet project milestones and deliverables, which rarely target software quality.  Time intensive tasks such as writing tests and documentation are therefore always at the bottom of the priority list.
@@ -134,26 +134,26 @@ The group brainstormed some ideas for project activities and priorities:
 
 The attendees of the workshop were:
 
-  + Andy Platt, NREL
+  + Andy Platt, NLR
   + Ann Almgren, LBNL
-  + Ashesh Sharma, NREL
-  + Chris Bay, NREL
-  + Dan Zalkind, NREL
-  + Dmitry Duplyakin, NREL
-  + Eliot Quon, NREL
-  + Emmanuel Branlard, NREL
+  + Ashesh Sharma, NLR
+  + Chris Bay, NLR
+  + Dan Zalkind, NLR
+  + Dmitry Duplyakin, NLR
+  + Eliot Quon, NLR
+  + Emmanuel Branlard, NLR
   + Ernesto Camarena, SNL
-  + Ethan Young, NREL
-  + Garrett Barter, NREL
-  + Jason Fields, NREL
-  + Jason Jonkman, NREL
-  + Jordan Perr-Sauer, NREL
+  + Ethan Young, NLR
+  + Garrett Barter, NLR
+  + Jason Fields, NLR
+  + Jason Jonkman, NLR
+  + Jordan Perr-Sauer, NLR
   + Kelley Ruehl, SNL
-  + Matt Shields, NREL
-  + Mike Sprague, NREL
-  + Misha Sinner, NREL
-  + Paul Fleming, NREL
-  + Paul Veers, NREL
-  + Pietro Bortolotti, NREL
-  + Rafael Mudafort, NREL
-  + Rob Hammond, NREL
+  + Matt Shields, NLR
+  + Mike Sprague, NLR
+  + Misha Sinner, NLR
+  + Paul Fleming, NLR
+  + Paul Veers, NLR
+  + Pietro Bortolotti, NLR
+  + Rafael Mudafort, NLR
+  + Rob Hammond, NLR

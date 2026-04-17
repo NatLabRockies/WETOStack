@@ -1,7 +1,7 @@
 # 2024 NAWEA / WindTech Workshops
 
 Prior to the [2024 NAWEA / WindTech conference](https://naweawindtech2024.org) at
-Rutgers University, NREL hosted a [series of workshops](https://naweawindtech2024.org/side-events)
+Rutgers University, NLR hosted a [series of workshops](https://naweawindtech2024.org/side-events)
 related to the collection of wind energy software produced at the lab.
 Each workshop introduced a specific software project and provided practical suggestions
 for modeling and analysis.

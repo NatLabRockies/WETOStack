@@ -113,7 +113,7 @@ A broad qualitative summary of the results is given here.
 ### User Support
 In each workshop, questions were asked about existing and future user support options.
 As for existing support, attendees noted that they mostly receive help from the model owners
-via the NREL Forums and GitHub-based forums, and that they also use the documentation and examples
+via the NLR Forums and GitHub-based forums, and that they also use the documentation and examples
 as a reference.
 On future user support, the questions asked attendees to rank support options in order
 of priority.
@@ -248,7 +248,7 @@ Here's a general schedule:
     - Coordinate with a friendly attendee ahead of time to start the conversation
     - Rely on Mentimeter polling to drive the conversation
     - Have direct, answerable questions that you prepare to ask the audience
-- Test the technology with computers that aren't NREL or DOE property to be sure that all attendees
+- Test the technology with computers that aren't NLR or DOE property to be sure that all attendees
     can access the meeting and the polling software
 
 (discussion_notes)=
@@ -266,10 +266,10 @@ from the attendees are not attributed.
 - *Pietro*: There is an intention to develop unified workflows and especially that integrate with windIO; this is a work in progress
 - *Pietro*: Workflows are very user-dependent, so addressing this need is a challenge for the model owners to navigate
 - It would be helpful to have user groups that are split into categories based on the type of work they do
-    - There are developers, OEMs, operators, academia - All these have different capabilities and want to use various NREL software, but they need to do different things
+    - There are developers, OEMs, operators, academia - All these have different capabilities and want to use various NLR software, but they need to do different things
     - Organizing these meetings and developing training specific to these groups would be helpful
     - Model owners could suggest "If you're a developer with a problem, solve it this way and these are the tools that we have."
-    - *Garrett*: We could possibly leverage forums (NREL Forum, GitHub) for these types of questions
+    - *Garrett*: We could possibly leverage forums (NLR Forum, GitHub) for these types of questions
 - There's a broad array of tools within this software stack, and it would be useful to be able to integrate in-house tools to complete a particular workflow
     - How can we integrate in-house models with the high-level methods within the WETO Stack?
 
@@ -287,7 +287,7 @@ from the attendees are not attributed.
     - *Garrett*: We've also considered separating the examples from the source code to enable installing the software itself through a package manager and then accessing the examples separately
 - It's difficult to understand what each tool actually does and where it fits into the big picture
     - Also didn't know that there were webinars, so linking information to other places would be helpful
-- *Dan*: I know installation can be a pain and within NREL we're able to offer hands-on help, but this isn't possible to do for everyone
+- *Dan*: I know installation can be a pain and within NLR we're able to offer hands-on help, but this isn't possible to do for everyone
     - Is there interest in a paid support option for installation or other usage questions?
     - *Jeff*: As developers, we're blinded to the issues for new users because we created these systems and spend a lot of time with them
     - *Rafael*: You only have the unique experience of seeing something for the first time one, so it's really helpful to hear your struggles and feedback on the onboarding process when you're experiencing them
@@ -309,7 +309,7 @@ from the attendees are not attributed.
 **Meeting chat**
 - I think pushing windIO forward as a universal input file format will facilitate to work with various of the WETO tools. It took us a while to juggle between WISDEM, openFAST, SONATA and some external tools. OpenFAST is not yet on windIO, right? But still between wisdem and sonata the windIO format was not defined 100% the same, so some adjustments were necessary. 
     - *Garrett*: Thank you for that comment, Daniel.  That is certainly the long-term vision, and progress is being made, although not always as quickly to help all projects
-- Is there any possibility to integrate nrel's turbine library with wisdem? Maybe using windio? https://github.com/NREL/turbine-models
+- Is there any possibility to integrate NLR's turbine library with wisdem? Maybe using windio? https://github.com/natlabrockies/turbine-models
     - *Garrett*: Thanks for pointing that out, Julian.  That repo is mostly maintained by the techno-economic team.  Perfectly on-point to the discussion here that this needs to be better integrated into this effort
 - Hi folks, as I mentioned to Pietro,Garrett and Dan in the past, for us, keeping the various components modular and stand-alone as much as possible is key, perhaps aligned with what Fabian said. E.g., towerSE is a great example of stand-alone, but the blade used to be really intrinsically connected to so many other parameters of the turbine. This makes it difficult to use for other side projects, e.g., to use in VAWTs, or with external inputs/loads etc.. So in a nutshell, the modularity and leaving things in stand-alone as much as possible is our ask
     - *Julian*: There are plans to modularize the windio turbine schema, which can help this vision of each package / data format being modular and stand-alone
@@ -347,13 +347,13 @@ from the attendees are not attributed.
     - *Garrett*: Both ORBIT and LandBOSSE, which will be presented today, have line item costs for decommissioning, but those end-of-life processes are not modeled to the same resolution as assembly and installation at the front-end
 - Thanks.   Do you have any interface with TECHTEST that DOE EERE published?
     - *Garrett* (answered in the meeting): This specific set of software do not integrate with TechTest, but this is a good suggestion ad we'll note this for future development
-- Another question from a prospective / new user perspective... many industry assessment packages (i.w., Windographer, Furow, etc.) have GUIs that lessen some of the challenge with onboarding. Is there consideration for making GUIs for some of NREL's packages (such as ORBIT)?
-    - *Garrett*: Hi Keith- This topic does come up a bit.  Our DOE funded work tends to emphasize the research & study functionality instead of the GUIs.  GUIs also tend to require a higher level of maintenance to ensure that everything always works smoothly, so they haven't been as high on the priority list.  Feedback such as yours is exactly what this workshop is about and will help us adjust our roadmaps accordingly.  I'll add that some of NREL's wind TEA tools couple into NREL's more widely known System Advisor Model (SAM), which is GUI-based.  Also, as Rob just mentioned, LandBOSSE has an Excel tie-in
+- Another question from a prospective / new user perspective... many industry assessment packages (i.w., Windographer, Furow, etc.) have GUIs that lessen some of the challenge with onboarding. Is there consideration for making GUIs for some of NLR's packages (such as ORBIT)?
+    - *Garrett*: Hi Keith- This topic does come up a bit.  Our DOE funded work tends to emphasize the research & study functionality instead of the GUIs.  GUIs also tend to require a higher level of maintenance to ensure that everything always works smoothly, so they haven't been as high on the priority list.  Feedback such as yours is exactly what this workshop is about and will help us adjust our roadmaps accordingly.  I'll add that some of NLR's wind TEA tools couple into NLR's more widely known System Advisor Model (SAM), which is GUI-based.  Also, as Rob just mentioned, LandBOSSE has an Excel tie-in
         - *Author*: ... I should have mentioned SAM; I have used that and if an ORBIT interface could be added, that would be great
 - Comment related to LandBOSSE – It would be beneficial if the documentation about used inputs and outputs is a bit more detailed. Especially for new users, I found it hard to navigate throughout many excel sheets, without knowing the naming convention, units, references etc.  Maybe to be considered for the future LandBOSSE report...
     - *Rob*: Another spoiler is that LandBOSSE is slated for some general updates both for some more modern Python, but especially to get a documentation site (currently relies on the user building it locally)
 - Question for Nicholas, based on what information you create and update your models?
-    - *Nicholas*: Hi Ernesto. Thanks for the great question. Models tend to receive updates project-to-project. We reference a variety of published manuscripts, leverage other NREL teams for engineering model trends, communicate and verify approaches with industry partners, and also distill information that gov or developers release. 
+    - *Nicholas*: Hi Ernesto. Thanks for the great question. Models tend to receive updates project-to-project. We reference a variety of published manuscripts, leverage other NLR teams for engineering model trends, communicate and verify approaches with industry partners, and also distill information that gov or developers release. 
 - Question to Rob: Do you have plans to introduce models accounting for the effect on the probability of failure of components and sub-components considering climate change events? 
 
 - Question to CORAL, does CORAL select the type vessels and cranes based on wind turbine manufacture information (e.g.  blade length and weight, type of substructure)?
@@ -398,7 +398,7 @@ from the attendees are not attributed.
         - One thing that would be good is to explicitly acknowledge the people and organizations that contribute back somewhere in the repository
         - This is something that we could bring back to our management in that it's good PR
         - Regarding privacy concerns, I think many companies would be happy to share that they're using and contributing to FLORIS, but they just aren't being asked
-    - Users and industry partners can connect with NREL researchers on an individual basis, but is there an opportunity for a forum model owners can share they future plans more generally?
+    - Users and industry partners can connect with NLR researchers on an individual basis, but is there an opportunity for a forum model owners can share they future plans more generally?
         - An online meeting or other live event where stakeholders (users, contributors) who have contributed to FLORIS are invited
     - *Rafael*: Whats a good way to advertise these types of events?
 
@@ -425,14 +425,14 @@ from the attendees are not attributed.
     - *Derek*: It's been pretty thoroughly tested with ElastoDyn, BeamDyn, and AeroDyn. If you can normally do linearization in OpenFAST it should be supported by ACDC. The visualization currently only supports lines so SubDyn doesn't visualize very well, but frequencies and damping are correct. It has worked on floating as well, though it doesn't visualize the platform
 - How does the External DLL option work?
     - *Derek*: Yes, you can set which DOFs are active in ElastoDyn through the interface as well. ServoDyn is supported as in typical OpenFAST linearization. So, it adjusts the blade pitch or the torque (based on the region) to achieve the target wind speed and rotor RPM.
-    - *Dan*: It works almost exactly like ServoDyn calls ROSCO.  ROSCO can load and call another DLL, then it's up to the user to decide how to use the information from the external DLL.  In this example, a ROSCO DLL calls another ROSCO DLL: https://github.com/NREL/ROSCO/blob/main/Examples/16_external_dll.py.  It was developed because users sometimes have black box OEM DLLs and want to add features, like floating support, to those controllers.
+    - *Dan*: It works almost exactly like ServoDyn calls ROSCO.  ROSCO can load and call another DLL, then it's up to the user to decide how to use the information from the external DLL.  In this example, a ROSCO DLL calls another ROSCO DLL: https://github.com/natlabrockies/ROSCO/blob/main/Examples/16_external_dll.py.  It was developed because users sometimes have black box OEM DLLs and want to add features, like floating support, to those controllers.
 - *Anurag*: Thoughts in the audience on how you would best want to join in/integrate into a broader OpenFAST development community to speed up progress on the roadmap ? What framework/arrangement/support would make a difference ?
     - Do you mean for user-contributed developments? For feedback?
     - *Anurag*: User-contributed developments (OR) improvements to elements to the OpenFAST "toolkit" broadly
     - We have scripts internally to do things like run a power curve or other types of sweep using yaml inputs to swap out OpenFAST inputs. Are tools like that widely available?
     - If they are available, my perspective is that they are not easy to find (either that or not available)
     - Maybe we should share those!
-    - *Garrett*: On the python toolboxes, the NREL team would like to see a future where all of the python-based utilities in the openfast_toolbox, WEIS, pCrunch, and others all get combined and cleaned up into the primary openfast_toolbox that was just described.  It will take some time and the right project support to make that happen though.
+    - *Garrett*: On the python toolboxes, the NLR team would like to see a future where all of the python-based utilities in the openfast_toolbox, WEIS, pCrunch, and others all get combined and cleaned up into the primary openfast_toolbox that was just described.  It will take some time and the right project support to make that happen though.
     - maybe there is a possibility of a "cheat-sheet" kind of an approach (?)
     - (Related to the initial question) Could an open Discussion thread on GitHub where users can suggest improvement ideas work? Then, if others have existing tools addressing those needs, they could share it (maybe to a new folder within the repo?)
         - Maybe more of a curated FAQs?

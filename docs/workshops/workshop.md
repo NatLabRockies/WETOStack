@@ -4,7 +4,7 @@
 The Holistic Modeling Portfolio Coordination Project is a three-year project with a goal of
 building the community of WETO software stakeholders. One aspect of this project is an annual
 workshop among various WETO software stakeholders.
-The first workshop was held on September 7, 2023, at NREL's Golden Campus, and it was primarily
+The first workshop was held on September 7, 2023, at NLR's Golden Campus, and it was primarily
 focused on model owners - people directly responsible for funding, planning, and developing
 this collection of software. The announcement, a summary report, and notes from this event
 are available in [](workshop_2023).
@@ -12,7 +12,7 @@ are available in [](workshop_2023).
 **The 2024 workshop is tentatively scheduled for June 2024**, and it will incorporate the
 perspective of consumers of WETO software including practitioners using these tools in their
 work and developers extending or incorporating these projects into other software.
-Contact Rafael Mudafort (rafael.mudafort@nrel.gov) with any questions.
+Contact Rafael Mudafort (rafael.mudafort@nlr.gov) with any questions.
 
 (workshop_2023)=
 ## 2023 Workshop
@@ -25,7 +25,7 @@ Please see [](workshop_report_top) for a summary of the presentations and discus
 ### Announcement
 A component of the Holistic Modeling Portfolio Coordination Project is to coordinate and host
 an annual workshop with the purpose of strengthening the community of WETO software owners.
-**The first workshop will be help on September 7, 2023, at NREL's Golden Campus.**
+**The first workshop will be help on September 7, 2023, at NLR's Golden Campus.**
 
 The objective of the first workshop is to *initialize* the community.
 To that end, two primary topics will be threaded throughout the conversations:
@@ -39,13 +39,13 @@ will seed the conversations. Please see the [](workshop_agenda) and [](logistics
 **All attendees are asked to complete the following tasks prior to the workshop:**
 - Review the [](software_listing) to ensure that all WETO-supported software within your field
   of expertise is listed.
-- Create a pull request to https://github.com/nrel/WETOStack with an attributes description
+- Create a pull request to https://github.com/NatLabRockies/WETOStack with an attributes description
   for your software projects following the guidance in [](schema).
 - Review the [](workshop_agenda) and [Discussion topics](discussion1).
 
 `````{admonition} Contact
 :class: tip
-Please contact Rafael Mudafort (rafael.mudafort@nrel.gov) with any questions.
+Please contact Rafael Mudafort (rafael.mudafort@nlr.gov) with any questions.
 `````
 
 ```{contents}
@@ -144,7 +144,7 @@ The objective is mutual understanding of perspectives.
 (logistics)=
 ### Day-Of Logistics
 
-````{admonition} NREL Golden Campus Address
+````{admonition} NLR Golden Campus Address
 :class: tip
 
 ```
@@ -166,7 +166,7 @@ Lunch is scheduled for noon.
 **Location**
 
 The workshop will take place in the Cache La Poudre meeting room in the
-RSF building at NREL's Golden Campus. The room number is "X405" and it is on the RSF's 4th floor
+RSF building at NLR's Golden Campus. The room number is "X405" and it is on the RSF's 4th floor
 in the A wing.
 
 ```{image} ../_static/images/rsf_4thfloor_map.png
@@ -192,7 +192,7 @@ and they will inform future portfolio coordination efforts.
 
 **Parking**
 
-NREL staff should park in the parking garage and visitors should park in the visitor lot
+NLR staff should park in the parking garage and visitors should park in the visitor lot
 near the East Gate entrance.
 See the map below for guidance.
 

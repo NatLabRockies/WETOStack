@@ -156,7 +156,7 @@ schema = {
             ],
         },
         "turbine_model": {
-            "description": "The fidelity with which the turbine is represented in the software model (if at all).  Options are 'regression' (e.g. NREL CSM), 'lookup_table' (e.g. in FLORIS), 'momentum_sink' (e.g. in WRF), 'multibody_bem' (e.g. OpenFAST), 'vortex_method' (e.g. OLAF), 'actuator' (e.g. in CFD), 'geometry_resolved' (e.g. in CFD), 'SCADA' (e.g. FLASC/OpenOA)",
+            "description": "The fidelity with which the turbine is represented in the software model (if at all).  Options are 'regression' (e.g. NLR CSM), 'lookup_table' (e.g. in FLORIS), 'momentum_sink' (e.g. in WRF), 'multibody_bem' (e.g. OpenFAST), 'vortex_method' (e.g. OLAF), 'actuator' (e.g. in CFD), 'geometry_resolved' (e.g. in CFD), 'SCADA' (e.g. FLASC/OpenOA)",
             "type": "array",
             "items": {
                 "enum": [
