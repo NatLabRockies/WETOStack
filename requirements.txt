@@ -1,7 +1,7 @@
 jsonschema~=4.21
 json-schema-for-humans
 matplotlib>=3.9.1
-numpy~=1.26
+numpy<2.6
 pyyaml
 
 # For the docs
@@ -17,6 +17,6 @@ sphinx-simplepdf~=1.6
 itables~=2.2
 pandas~=2.2
 networkx
-ghapi
+ghapi<2
 pygraphviz
 squarify
