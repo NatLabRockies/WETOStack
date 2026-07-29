@@ -120,3 +120,9 @@ The following GitHub organizations house some of the software projects supported
 - https://github.com/nlrwindsystems
 - https://github.com/erf-model
 - https://github.com/sandialabs
+
+```{toctree}
+:titlesonly:
+
+software_other
+```

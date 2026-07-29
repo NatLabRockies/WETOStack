@@ -47,17 +47,17 @@ jobs:
         pip install --upgrade pip
         pip install -r requirements.txt
     # Build the Vue app first, and then move it to the docs/_static folder so that it's included
-    # in the JupyterBook build.
+    # in the Sphinx build.
     - name: Build the Vue app
       working-directory: ${{runner.workspace}}/WETOStack/entry_guide
       run: |
         npm install
         npm run build
         mv dist ../docs/_static/entry_guide
-    - name: Build the JupyterBook
+    - name: Build the docs
       working-directory: ${{runner.workspace}}/WETOStack/docs/
       run: |
-        jupyter-book build .
+        sphinx-build -b html . _build/html
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
     - name: Upload artifact

@@ -117,9 +117,10 @@ the Jupyter Book project table of contents must be modified to point to the loca
 to the Entry Guide's `index.html` file rather than the web URL that is set for the
 deployed project.
 
-### Building the Jupyter Book Project
+### Building the Docs
 
-The site is built using [Jupyter Book](https://jupyterbook.org/intro.html).
+The site is built using [Sphinx](https://www.sphinx-doc.org) with
+[pydata-sphinx-theme](https://pydata-sphinx-theme.readthedocs.io).
 To build the site, run the following command:
 
 ```bash
@@ -127,25 +128,10 @@ pip install -r requirements.txt
 
 cd docs/
 
-jupyter-book build .
+sphinx-build -b html . _build/html
 ```
 
-After a bit of output, the final lines will point to the location of the main HTML file
-that can be opened in a browser:
-
-```
-The HTML pages are in _build/html.
-
-===============================================================================
-
-Finished generating HTML for book.
-Your book's HTML pages are here:
-    _build/html/
-You can look at your book by opening this file in a browser:
-    _build/html/index.html
-Or paste this line directly into your browser bar:
-    file://<removed>/wetostack/docs/_build/html/index.html
-```
+The output will be at `docs/_build/html/index.html`.
 
 Note that the `docs/_build` folder must be removed and a rebuild completed if there are changes to
 the `software_attributes/database/` YAML files.

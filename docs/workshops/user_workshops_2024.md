@@ -188,3 +188,9 @@ Garrett Barter co-hosted the workshop and facilitated the discussion.
 
 ```{youtube} N7oH9IG3occ
 ```
+
+```{toctree}
+:titlesonly:
+
+user_workshops_2024_report
+```

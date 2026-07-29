@@ -5,5 +5,11 @@ The WETO Software Stack is the software portfolio wholly or partially supported 
 Please use the navigation at the left or below to jump to your desired content.  If you are a new user looking to find the right tool for your application, please see the Entry Guide.
 
 ## Table of Contents
-```{tableofcontents}
+```{toctree}
+:maxdepth: 2
+:titlesonly:
+
+portfolio_analysis/index
+software_dev/index
+engagement
 ```

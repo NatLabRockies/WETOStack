@@ -5,12 +5,14 @@ numpy<2.6
 pyyaml
 
 # For the docs
-jupyter-book~=1.0
-# sphinx-book-theme-1.1.4       # Note 1.1.2 has a broken sidebar
-pydata-sphinx-theme~=0.15
-sphinxcontrib.mermaid~=0.9
-sphinxcontrib.youtube~=1.4
+sphinx
+myst-nb~=1.1
+sphinx-design>=0.5
+pydata-sphinx-theme~=0.20
+sphinxcontrib.mermaid~=2.1
+sphinxcontrib.youtube~=1.5
 sphinx-simplepdf~=1.6
+linkify-it-py
 
 # attribute tables
 # import altair as alt
