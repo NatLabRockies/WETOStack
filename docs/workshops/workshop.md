@@ -210,3 +210,9 @@ experience here so please let me know if anything is unclear.
 ### Workshop Notes and Materials
 
 TODO: Include raw notes, either documents hosted in the repository or text directly, here.
+
+```{toctree}
+:titlesonly:
+
+workshop_report
+```

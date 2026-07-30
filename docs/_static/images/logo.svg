@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+  <!--
+    WETO wind-turbine spinner — faithful SVG port of the loading.io "lds-roller"
+    defined in logo.css.
+
+    How it moves (matches the CSS keyframes exactly):
+      - 3 thin capsule blades share one motion: rotate 0 -> 1080deg (three full
+        revolutions) reached at ~83.3% of the timeline, then hold to 100%.
+      - Cycle is 6s with ease-in-out (cubic-bezier(0.5,0,0.5,1)): ~5s spinning,
+        ~1s paused collapsed.
+      - The blades are staggered (begin 0s / 0.3s / 0.6s). At rest they all land
+        on the same angle and stack into one blade; while spinning the stagger
+        makes them fan apart into a 3-color pinwheel, then merge back together.
+      - Colors and the tan hub match logo.css.
+  -->
+  <g transform="translate(20,20)">
+    <!-- Blade 1 (salmon) — leads -->
+    <g>
+      <animateTransform
+        attributeName="transform"
+        attributeType="XML"
+        type="rotate"
+        values="0 0 0; 1080 0 0; 1080 0 0"
+        keyTimes="0; 0.8333; 1"
+        calcMode="spline"
+        keySplines="0.5 0 0.5 1; 0 0 1 1"
+        dur="6s"
+        begin="0s"
+        repeatCount="indefinite"/>
+      <ellipse cx="0" cy="6" rx="2.5" ry="10" fill="#FD6467"/>
+    </g>
+
+    <!-- Blade 2 (dark maroon) — trails by 0.3s -->
+    <g>
+      <animateTransform
+        attributeName="transform"
+        attributeType="XML"
+        type="rotate"
+        values="0 0 0; 1080 0 0; 1080 0 0"
+        keyTimes="0; 0.8333; 1"
+        calcMode="spline"
+        keySplines="0.5 0 0.5 1; 0 0 1 1"
+        dur="6s"
+        begin="0.3s"
+        repeatCount="indefinite"/>
+      <ellipse cx="0" cy="6" rx="2.5" ry="10" fill="#5B1A18"/>
+    </g>
+
+    <!-- Blade 3 (orange) — trails by 0.6s -->
+    <g>
+      <animateTransform
+        attributeName="transform"
+        attributeType="XML"
+        type="rotate"
+        values="0 0 0; 1080 0 0; 1080 0 0"
+        keyTimes="0; 0.8333; 1"
+        calcMode="spline"
+        keySplines="0.5 0 0.5 1; 0 0 1 1"
+        dur="6s"
+        begin="0.6s"
+        repeatCount="indefinite"/>
+      <ellipse cx="0" cy="6" rx="2.5" ry="10" fill="#D67236"/>
+    </g>
+
+    <!-- Tan hub dot (static, matches .lds-circle color) -->
+    <circle cx="0" cy="0" r="4" fill="#F1BB7B"/>
+  </g>
+</svg>
