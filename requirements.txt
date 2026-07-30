@@ -22,3 +22,5 @@ networkx
 ghapi<2
 pygraphviz
 squarify
+mpl-chord-diagram
+pyvis
